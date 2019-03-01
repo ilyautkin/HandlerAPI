@@ -1,0 +1,96 @@
+/* Grid */
+.handlerapi-handlerapi-row-disabled { font-style: italic; opacity: .6; color: #555; }
+.x-grid3-col-actions { padding: 3px 0 3px 5px; }
+
+/* Actions */
+.action-red { color: darkred !important; }
+.action-green { color: darkgreen !important; }
+.action-blue { color: cadetblue !important; }
+.action-yellow { color: goldenrod !important; }
+.action-gray { color: dimgray !important; }
+ul.handlerapi-row-actions { margin: 0; padding: 0; list-style: none; }
+ul.handlerapi-row-actions li { float: left; }
+ul.handlerapi-row-actions .handlerapi-btn { padding: 5px; margin-right: 2px; min-width: 26px; font-size: inherit; }
+
+/* Action menu */
+a.x-menu-item .x-menu-item-text, a.x-menu-item .x-menu-item-text .icon { cursor: pointer; }
+a.x-menu-item .x-menu-item-text .icon { line-height: 16px; top: auto; }
+.x-menu-list .icon { min-width: 1em; text-align: center; }
+.x-menu-list-item:hover .icon { color: inherit !important; }
+ul.handlerapi-row-actions .actions-menu { width: 40px; }
+ul.handlerapi-row-actions .actions-menu:after { content: " \f107"; }
+
+/* Search field */
+.x-field-search-clear,
+.x-field-search-go { border-left: 1px solid #e4e4e4 !important; }
+.x-field-search-clear:hover,
+.x-field-search-go:hover { border-left-color: transparent !important; }
+.x-field-search-clear:before { content: '\f00d' !important; }
+.x-field-search-go { right: 31px !important; border-radius: 0 !important; }
+.x-field-search-go:before { content: '\f002' !important; }
+
+/* Buttons */
+.handlerapi-btn { display: inline-block; margin-bottom: 0; font-weight: normal; text-align: center; vertical-align: middle; -ms-touch-action: manipulation; touch-action: manipulation; cursor: pointer; background-image: none; border: 1px solid transparent; white-space: nowrap; padding: 6px 12px; font-size: 14px; line-height: 1.42857143; border-radius: 4px; -webkit-user-select: none; -moz-user-select: none; -ms-user-select: none; user-select: none }
+.handlerapi-btn:focus, .handlerapi-btn:active:focus, .handlerapi-btn.active:focus, .handlerapi-btn.focus, .handlerapi-btn:active.focus, .handlerapi-btn.active.focus { outline: thin dotted; outline: 5px auto -webkit-focus-ring-color; outline-offset: -2px }
+.handlerapi-btn:hover, .handlerapi-btn:focus, .handlerapi-btn.focus { color: #333; text-decoration: none }
+.handlerapi-btn:active, .handlerapi-btn.active { outline: 0; background-image: none; -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125); box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125) }
+.handlerapi-btn.disabled, .handlerapi-btn[disabled], fieldset[disabled] .handlerapi-btn { cursor: not-allowed; opacity: .65; filter: alpha(opacity=65); -webkit-box-shadow: none; box-shadow: none }
+a.handlerapi-btn.disabled, fieldset[disabled] a.handlerapi-btn { pointer-events: none }
+.handlerapi-btn-default { color: #333; background-color: #fff; border-color: #ccc }
+.handlerapi-btn-default:focus, .handlerapi-btn-default.focus { color: #333; background-color: #e6e6e6; border-color: #8c8c8c }
+.handlerapi-btn-default:hover { color: #333; background-color: #e6e6e6; border-color: #adadad }
+.handlerapi-btn-default:active, .handlerapi-btn-default.active, .open > .dropdown-toggle.handlerapi-btn-default { color: #333; background-color: #e6e6e6; border-color: #adadad }
+.handlerapi-btn-default:active:hover, .handlerapi-btn-default.active:hover, .open > .dropdown-toggle.handlerapi-btn-default:hover, .handlerapi-btn-default:active:focus, .handlerapi-btn-default.active:focus, .open > .dropdown-toggle.handlerapi-btn-default:focus, .handlerapi-btn-default:active.focus, .handlerapi-btn-default.active.focus, .open > .dropdown-toggle.handlerapi-btn-default.focus { color: #333; background-color: #d4d4d4; border-color: #8c8c8c }
+.handlerapi-btn-default:active, .handlerapi-btn-default.active, .open > .dropdown-toggle.handlerapi-btn-default { background-image: none }
+.handlerapi-btn-default.disabled:hover, .handlerapi-btn-default[disabled]:hover, fieldset[disabled] .handlerapi-btn-default:hover, .handlerapi-btn-default.disabled:focus, .handlerapi-btn-default[disabled]:focus, fieldset[disabled] .handlerapi-btn-default:focus, .handlerapi-btn-default.disabled.focus, .handlerapi-btn-default[disabled].focus, fieldset[disabled] .handlerapi-btn-default.focus { background-color: #fff; border-color: #ccc }
+.handlerapi-btn-default .badge { color: #fff; background-color: #333 }
+.handlerapi-btn-primary { color: #fff; background-color: #337ab7; border-color: #2e6da4 }
+.handlerapi-btn-primary:focus, .handlerapi-btn-primary.focus { color: #fff; background-color: #286090; border-color: #122b40 }
+.handlerapi-btn-primary:hover { color: #fff; background-color: #286090; border-color: #204d74 }
+.handlerapi-btn-primary:active, .handlerapi-btn-primary.active, .open > .dropdown-toggle.handlerapi-btn-primary { color: #fff; background-color: #286090; border-color: #204d74 }
+.handlerapi-btn-primary:active:hover, .handlerapi-btn-primary.active:hover, .open > .dropdown-toggle.handlerapi-btn-primary:hover, .handlerapi-btn-primary:active:focus, .handlerapi-btn-primary.active:focus, .open > .dropdown-toggle.handlerapi-btn-primary:focus, .handlerapi-btn-primary:active.focus, .handlerapi-btn-primary.active.focus, .open > .dropdown-toggle.handlerapi-btn-primary.focus { color: #fff; background-color: #204d74; border-color: #122b40 }
+.handlerapi-btn-primary:active, .handlerapi-btn-primary.active, .open > .dropdown-toggle.handlerapi-btn-primary { background-image: none }
+.handlerapi-btn-primary.disabled:hover, .handlerapi-btn-primary[disabled]:hover, fieldset[disabled] .handlerapi-btn-primary:hover, .handlerapi-btn-primary.disabled:focus, .handlerapi-btn-primary[disabled]:focus, fieldset[disabled] .handlerapi-btn-primary:focus, .handlerapi-btn-primary.disabled.focus, .handlerapi-btn-primary[disabled].focus, fieldset[disabled] .handlerapi-btn-primary.focus { background-color: #337ab7; border-color: #2e6da4 }
+.handlerapi-btn-primary .badge { color: #337ab7; background-color: #fff }
+.handlerapi-btn-success { color: #fff; background-color: #5cb85c; border-color: #4cae4c }
+.handlerapi-btn-success:focus, .handlerapi-btn-success.focus { color: #fff; background-color: #449d44; border-color: #255625 }
+.handlerapi-btn-success:hover { color: #fff; background-color: #449d44; border-color: #398439 }
+.handlerapi-btn-success:active, .handlerapi-btn-success.active, .open > .dropdown-toggle.handlerapi-btn-success { color: #fff; background-color: #449d44; border-color: #398439 }
+.handlerapi-btn-success:active:hover, .handlerapi-btn-success.active:hover, .open > .dropdown-toggle.handlerapi-btn-success:hover, .handlerapi-btn-success:active:focus, .handlerapi-btn-success.active:focus, .open > .dropdown-toggle.handlerapi-btn-success:focus, .handlerapi-btn-success:active.focus, .handlerapi-btn-success.active.focus, .open > .dropdown-toggle.handlerapi-btn-success.focus { color: #fff; background-color: #398439; border-color: #255625 }
+.handlerapi-btn-success:active, .handlerapi-btn-success.active, .open > .dropdown-toggle.handlerapi-btn-success { background-image: none }
+.handlerapi-btn-success.disabled:hover, .handlerapi-btn-success[disabled]:hover, fieldset[disabled] .handlerapi-btn-success:hover, .handlerapi-btn-success.disabled:focus, .handlerapi-btn-success[disabled]:focus, fieldset[disabled] .handlerapi-btn-success:focus, .handlerapi-btn-success.disabled.focus, .handlerapi-btn-success[disabled].focus, fieldset[disabled] .handlerapi-btn-success.focus { background-color: #5cb85c; border-color: #4cae4c }
+.handlerapi-btn-success .badge { color: #5cb85c; background-color: #fff }
+.handlerapi-btn-info { color: #fff; background-color: #5bc0de; border-color: #46b8da }
+.handlerapi-btn-info:focus, .handlerapi-btn-info.focus { color: #fff; background-color: #31b0d5; border-color: #1b6d85 }
+.handlerapi-btn-info:hover { color: #fff; background-color: #31b0d5; border-color: #269abc }
+.handlerapi-btn-info:active, .handlerapi-btn-info.active, .open > .dropdown-toggle.handlerapi-btn-info { color: #fff; background-color: #31b0d5; border-color: #269abc }
+.handlerapi-btn-info:active:hover, .handlerapi-btn-info.active:hover, .open > .dropdown-toggle.handlerapi-btn-info:hover, .handlerapi-btn-info:active:focus, .handlerapi-btn-info.active:focus, .open > .dropdown-toggle.handlerapi-btn-info:focus, .handlerapi-btn-info:active.focus, .handlerapi-btn-info.active.focus, .open > .dropdown-toggle.handlerapi-btn-info.focus { color: #fff; background-color: #269abc; border-color: #1b6d85 }
+.handlerapi-btn-info:active, .handlerapi-btn-info.active, .open > .dropdown-toggle.handlerapi-btn-info { background-image: none }
+.handlerapi-btn-info.disabled:hover, .handlerapi-btn-info[disabled]:hover, fieldset[disabled] .handlerapi-btn-info:hover, .handlerapi-btn-info.disabled:focus, .handlerapi-btn-info[disabled]:focus, fieldset[disabled] .handlerapi-btn-info:focus, .handlerapi-btn-info.disabled.focus, .handlerapi-btn-info[disabled].focus, fieldset[disabled] .handlerapi-btn-info.focus { background-color: #5bc0de; border-color: #46b8da }
+.handlerapi-btn-info .badge { color: #5bc0de; background-color: #fff }
+.handlerapi-btn-warning { color: #fff; background-color: #f0ad4e; border-color: #eea236 }
+.handlerapi-btn-warning:focus, .handlerapi-btn-warning.focus { color: #fff; background-color: #ec971f; border-color: #985f0d }
+.handlerapi-btn-warning:hover { color: #fff; background-color: #ec971f; border-color: #d58512 }
+.handlerapi-btn-warning:active, .handlerapi-btn-warning.active, .open > .dropdown-toggle.handlerapi-btn-warning { color: #fff; background-color: #ec971f; border-color: #d58512 }
+.handlerapi-btn-warning:active:hover, .handlerapi-btn-warning.active:hover, .open > .dropdown-toggle.handlerapi-btn-warning:hover, .handlerapi-btn-warning:active:focus, .handlerapi-btn-warning.active:focus, .open > .dropdown-toggle.handlerapi-btn-warning:focus, .handlerapi-btn-warning:active.focus, .handlerapi-btn-warning.active.focus, .open > .dropdown-toggle.handlerapi-btn-warning.focus { color: #fff; background-color: #d58512; border-color: #985f0d }
+.handlerapi-btn-warning:active, .handlerapi-btn-warning.active, .open > .dropdown-toggle.handlerapi-btn-warning { background-image: none }
+.handlerapi-btn-warning.disabled:hover, .handlerapi-btn-warning[disabled]:hover, fieldset[disabled] .handlerapi-btn-warning:hover, .handlerapi-btn-warning.disabled:focus, .handlerapi-btn-warning[disabled]:focus, fieldset[disabled] .handlerapi-btn-warning:focus, .handlerapi-btn-warning.disabled.focus, .handlerapi-btn-warning[disabled].focus, fieldset[disabled] .handlerapi-btn-warning.focus { background-color: #f0ad4e; border-color: #eea236 }
+.handlerapi-btn-warning .badge { color: #f0ad4e; background-color: #fff }
+.handlerapi-btn-danger { color: #fff; background-color: #d9534f; border-color: #d43f3a }
+.handlerapi-btn-danger:focus, .handlerapi-btn-danger.focus { color: #fff; background-color: #c9302c; border-color: #761c19 }
+.handlerapi-btn-danger:hover { color: #fff; background-color: #c9302c; border-color: #ac2925 }
+.handlerapi-btn-danger:active, .handlerapi-btn-danger.active, .open > .dropdown-toggle.handlerapi-btn-danger { color: #fff; background-color: #c9302c; border-color: #ac2925 }
+.handlerapi-btn-danger:active:hover, .handlerapi-btn-danger.active:hover, .open > .dropdown-toggle.handlerapi-btn-danger:hover, .handlerapi-btn-danger:active:focus, .handlerapi-btn-danger.active:focus, .open > .dropdown-toggle.handlerapi-btn-danger:focus, .handlerapi-btn-danger:active.focus, .handlerapi-btn-danger.active.focus, .open > .dropdown-toggle.handlerapi-btn-danger.focus { color: #fff; background-color: #ac2925; border-color: #761c19 }
+.handlerapi-btn-danger:active, .handlerapi-btn-danger.active, .open > .dropdown-toggle.handlerapi-btn-danger { background-image: none }
+.handlerapi-btn-danger.disabled:hover, .handlerapi-btn-danger[disabled]:hover, fieldset[disabled] .handlerapi-btn-danger:hover, .handlerapi-btn-danger.disabled:focus, .handlerapi-btn-danger[disabled]:focus, fieldset[disabled] .handlerapi-btn-danger:focus, .handlerapi-btn-danger.disabled.focus, .handlerapi-btn-danger[disabled].focus, fieldset[disabled] .handlerapi-btn-danger.focus { background-color: #d9534f; border-color: #d43f3a }
+.handlerapi-btn-danger .badge { color: #d9534f; background-color: #fff }
+.handlerapi-btn-link { color: #337ab7; font-weight: normal; border-radius: 0 }
+.handlerapi-btn-link, .handlerapi-btn-link:active, .handlerapi-btn-link.active, .handlerapi-btn-link[disabled], fieldset[disabled] .handlerapi-btn-link { background-color: transparent; -webkit-box-shadow: none; box-shadow: none }
+.handlerapi-btn-link, .handlerapi-btn-link:hover, .handlerapi-btn-link:focus, .handlerapi-btn-link:active { border-color: transparent }
+.handlerapi-btn-link:hover, .handlerapi-btn-link:focus { color: #23527c; text-decoration: underline; background-color: transparent }
+.handlerapi-btn-link[disabled]:hover, fieldset[disabled] .handlerapi-btn-link:hover, .handlerapi-btn-link[disabled]:focus, fieldset[disabled] .handlerapi-btn-link:focus { color: #777; text-decoration: none }
+.handlerapi-btn-lg { padding: 10px 16px; font-size: 18px; line-height: 1.3333333; border-radius: 6px }
+.handlerapi-btn-sm { padding: 5px 10px; font-size: 12px; line-height: 1.5; border-radius: 3px }
+.handlerapi-btn-xs { padding: 1px 5px; font-size: 12px; line-height: 1.5; border-radius: 3px }
+.handlerapi-btn-block { display: block; width: 100% }
+.handlerapi-btn-block + .handlerapi-btn-block { margin-top: 5px }
