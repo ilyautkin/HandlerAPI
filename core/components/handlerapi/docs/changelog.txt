@@ -1,5 +1,9 @@
 Changelog for HandlerAPI.
 
+1.0.1-beta
+==============
+- Checking JSON in section content
+
 1.0.0-beta
 ==============
 - First release

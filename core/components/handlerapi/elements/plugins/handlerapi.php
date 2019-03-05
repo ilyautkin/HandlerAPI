@@ -23,7 +23,10 @@ switch ($modx->event->name) {
                 $maxIterations= (integer) $modx->getOption('parser_max_iterations', null, 10);
                 $modx->getParser()->processElementTags('', $result, false, false, '[[', ']]', [], $maxIterations);
                 $modx->getParser()->processElementTags('', $result, true, true, '[[', ']]', [], $maxIterations);
-                $output['result'] = $result;
+                $output['result'] = json_decode($result, true);
+                if (json_last_error() !== JSON_ERROR_NONE) {
+                    $output['result'] = $result;
+                }
                 header('Content-Type: application/json');
                 echo $modx->toJSON($output);
                 exit;
